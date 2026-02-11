@@ -23,10 +23,9 @@ export default {
       { text: "Home", link: "/" },
       { text: "About", link: "/getting-started/overview" },
      {
-        text: "0.9.9",
+        text: "0.12.1",
         items: [
           {
-            // todo; add CHANGELOG.md in dotfiles-installer repo 
             text: 'Changelog',
             link: '/changelog.md'
           },
@@ -51,34 +50,11 @@ export default {
            text: 'Contributing to wiki →',
            link: '/dev/contributing'
           },
-          // we will add this in future.
-          // {
-          //  text: 'Troubleshooting →',
-          //  link: '/help/troubleshooting'
-          // },
         ],
       },
     ],
 
     sidebar: {
-    // future feature may be needed: sep sidebar for dots-installer section or any other
-    // basicallyy when user visits /dots-installer/ page it will only show dots-installer menu items
-    // just like how vitepress docs sep "refrence" section https://vitepress.dev/
-
-     // '/dots-installer/': [
-     //   {
-     //    text: "Dots Installer",
-     //    items: [
-     //       { text: "Overview", link: "/dots-installer/overview" },
-     //       { text: "Installation", link: "/dots-installer/installation" },
-     //       { text: "Dots Installation", link: "/dots-installer/dots-installation" },
-     //       { text: "Dots File", link: "/dots-installer/dots-file" },
-     //     ],
-     //   },
-     // ],
-
-    // default sidebar '/' that shows for all pages except those with specific sidebar rules above...
-
       '/': [
         {
           text: "Getting Started",

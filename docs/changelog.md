@@ -2,14 +2,14 @@
 
 ## Version 0.9.9
 
-- Fix protect files and folder issues
+- Fix protect files and folder-related issues
 - Add more developer tools
-- Add "Info" menu button to load configuration overview to installed dotfiles with "Open Homepage" and "Check for Updates" if remote source.
+- Add "Info" menu button to load configuration overview for installed dotfiles, including "Open Homepage" and "Check for Updates" for remote sources.
 
 ## Version 0.9.6
 
 - User interface updates
-- Check for available updates for remote sources from the load confifiguration screen
+- Check for available updates for remote sources from the load configuration screen
 
 ## Version 0.9.5
 
@@ -29,10 +29,10 @@
 
 ## Version 0.9.1
 
-- Access to all installation folders after got clone
+- Access to all installation folders after cloning
 - Add migration feature to install dotfiles directly
-- Add icons to backup, restore and protect screen
-- Add select/unselect all toggle to backup, restore and protect screen
+- Add icons to backup, restore and protect screens
+- Add select/unselect all toggle to backup, restore and protect screens
 
 ## Version 0.8.9
 
@@ -41,7 +41,7 @@
 ## Version 0.8.8
 
 - Update of development workflow
-- Minor buffixes
+- Minor bugfixes
 - Update of Flathub meta information
 
 ## Version 0.8.7

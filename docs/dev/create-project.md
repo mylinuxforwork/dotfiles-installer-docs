@@ -15,13 +15,13 @@ Click on "Select Project folder" and select your new repository folder or create
 
 You will find the following folder structure in your folder:
 
-- dev includes your development .dotinst file
-- dotfiles is the place where you can add your configuration. 
+- The 'dev' folder includes your development .dotinst file
+- The 'dotfiles' folder is where you can add your configuration. 
 
-Please follow the structure of starting with your home directory. 
+Please follow the directory structure relative to your home directory. 
 
-- Put the .bashrc file from your home folder to dotfiles/.bashrc
-- Put the .config/waybar folder to dotfiles/.config/waybar
+- Put the .bashrc file from your home folder into dotfiles/.bashrc
+- Put the .config/waybar folder into dotfiles/.config/waybar
 
 Then install your project by loading the development `.dotinst` file. Enter the path into the Load configuration entry field:
 

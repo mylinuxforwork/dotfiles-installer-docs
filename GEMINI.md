@@ -51,4 +51,4 @@ bun run docs:preview
 ```
 ## Instructions
 
-- When I ask for a spell check only check only md files in ./docs and exclude ./docs/.vitepress
+- When I ask for all spelling and grammar corrections only check only md files in ./docs and exclude ./docs/.vitepress Please only suggest obvious spelling mistakes and inappropriate English expressions.

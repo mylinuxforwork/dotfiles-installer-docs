@@ -7,4 +7,4 @@ In this dialog you can select parts of the configuration that you want to get pr
 ![image](/protectscreen.jpg)
 
 > [!NOTE]
-> Protecting files can result in unwanted side effects and incompatibility compared to the original code.
+> Protecting files can result in unwanted side effects and incompatibility with the original code.

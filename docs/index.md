@@ -21,12 +21,12 @@ hero:
       link: https://github.com/mylinuxforwork/dotfiles-installer
 
 features:
-  - title: Installation Wizzard
+  - title: Installation Wizard
     details: Easy to use and guided installation wizzard of multiple dotfiles in parallel
   - title: Backup and Protect
-    details: Backup of existing configuration and protection of your personal customization
+    details: Back up existing configurations and protect your personal customizations.
   - title: Publish your Dotfiles
-    details: The integrated development workflow supports you to create and publish your personal dotfiles for everyone
+    details: The integrated development workflow helps you create and publish your personal dotfiles for sharing with others.
 ---
 
 ### 1. Install the Dotfiles Installer App
@@ -39,7 +39,7 @@ Install the Dotfiles Installer App from Flathub:
 
 ### 2. Load the .dotinst
 
-Copy the path to the `.dotinst` file into the Load Configuration entry field, click on Load and follow the installation wizzard.
+Copy the path to the `.dotinst` file into the Load Configuration entry field, click on Load and follow the installation wizard.
 
 <img
   src="/mainscreen-dark.png"
