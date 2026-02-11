@@ -125,7 +125,7 @@ export default {
       message: "Released under the GPL License",
       copyright: `<a href="https://ml4w.com" target="_blank">
         <img src="/dotfiles-installer/ml4w.png" alt="ML4W" />
-        Copyright © 2025 Stephan Raabe
+        Copyright © 2026 Stephan Raabe
       </a>`,
     },
 
