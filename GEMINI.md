@@ -49,3 +49,6 @@ To preview the built static documentation:
 ```bash
 bun run docs:preview
 ```
+## Instructions
+
+- When I ask for a spell check only check only md files in ./docs and exclude ./docs/.vitepress
