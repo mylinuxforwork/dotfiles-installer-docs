@@ -3,12 +3,12 @@ layout: home
 pageClass: home-page
 
 hero:
-  name: "The Dotfiles Installer"
+  name: "The ML4W Dotfiles Installer"
   image:
     src: /com.ml4w.dotfilesinstaller.svg
     alt: Linux logo
     style: "width: 200px; height: auto;"  
-  tagline: Install Dotfiles easily, fast and secure. 
+  tagline: Install Dotfiles easily. Authentic. Modular. Safe. 
   actions:
     - theme: brand
       text: Get Started
@@ -21,31 +21,27 @@ hero:
       link: https://github.com/mylinuxforwork/dotfiles-installer
 
 features:
-  - title: Installation Wizard
-    details: Easy to use and guided installation wizzard of multiple dotfiles in parallel
-  - title: Backup and Protect
-    details: Back up existing configurations and protect your personal customizations.
-  - title: Publish your Dotfiles
-    details: The integrated development workflow helps you create and publish your personal dotfiles for sharing with others.
+  - title: ⚙️ Distribution Intelligence
+    details: Native support for pacman, dnf, and zypper. It understands your system's package manager so you don't have to.
+  - title: 🧪 Automated Safety
+    details: Every update triggers a full snapshot backup. With intelligent symlink replacement, you can switch between different project IDs seamlessly.
+  - title: 🛠 Developer Empowerment
+    details: Built-in --testmode for dry-runs, local source support for rapid prototyping, and a modular architecture that's easy to extend.
 ---
 
-### 1. Install the Dotfiles Installer App
+Experience a professional-grade Profile Manager designed for the modern Linux user. The ML4W Dotfiles Installer provides a robust command-line interface to deploy, manage, and update your Linux configurations across Arch, Fedora, and openSUSE with absolute precision and peace of mind.
 
-Install the Dotfiles Installer App from Flathub:
+## Why Choose the ML4W Installer?
 
-<a href='https://flathub.org/apps/com.ml4w.dotfilesinstaller' target="_blank">
-    <img width='240' alt='Get it on Flathub' src='https://flathub.org/api/badge?locale=en'/>
-</a>
+- Distribution Intelligence: Native support for pacman, dnf, and zypper. It understands your system's package manager so you don't have to.
 
-### 2. Load the .dotinst
+- Sandbox Security: Your $HOME is a temple. Our unique "Sandbox Staging" process ensures dotfiles are validated in a local environment before a single symlink is created.
 
-Copy the path to the `.dotinst` file into the Load Configuration entry field, click on Load and follow the installation wizard.
+- Automated Safety: Every update triggers a full snapshot backup. With intelligent symlink replacement, you can switch between different project IDs seamlessly.
 
-<img
-  src="/mainscreen-dark.png"
-  alt="preview"
-  style="max-width: 900px; width: 100%; border-radius: 12px; margin: 2rem auto; display: block;"
-/>
+- Developer Empowerment: Built-in --testmode for dry-runs, local source support for rapid prototyping, and a modular architecture that's easy to extend.
+
+- Complete Control: Use Blacklists to preserve your local hardware tweaks and User Overrides to inject custom post.sh logic into any profile.
 
 <style>
 :root {

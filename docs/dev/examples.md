@@ -11,3 +11,7 @@ https://raw.githubusercontent.com/mylinuxforwork/dotfiles/main/hyprland-dotfiles
 This is the `.dotinst` file for the development environment for the ML4W Dotfiles for Hyprland. You can see that in this case the source is a local directory (GitHub cloned repository) in the Projects folder.
 
 https://raw.githubusercontent.com/mylinuxforwork/dotfiles/main/dev/hyprland-dotfiles.dotinst
+
+## Publish your Dotfiles
+
+You can upload your `.dotinst` file to any server or public GitHub repository and share the download links.

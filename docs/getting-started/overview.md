@@ -1,29 +1,24 @@
-# Overview
+# Getting Started
 
-<div class="tip custom-block" style="padding-top: 8px">
+The ML4W Dotfiles Installer is more than just a script; it is a professional deployment pipeline for your Linux environment.
 
-**Install dotfiles easily, quickly, and securely. Or publish your own dotfiles and offer an intuitive installation experience.**
+## 🏗 The Staging Architecture
+Safety is built into the core. The installer follows a strict logical flow to ensure system stability:
 
-</div>
+1. **Dependency Sync:** Automatically verifies and installs core tools like `jq` and `gum`.
+2. **Sandbox Creation:** Clones the target repository into a localized staging area (`~/.mydotfiles-test/[ID]`).
+3. **Logic Execution:** Runs distro-specific preflight scripts and installs required packages.
+4. **Final Deployment:** Synchronizes the staged files to your `$HOME` using intelligent symlinks.
 
-![image](/mainscreen-dark.png)
 
-You can easily install Dotfiles configurations by providing the URL to a `.dotinst` file and following the app's instructions.
 
-The Dotfiles Installer automatically creates a backup of the existing configuration for you. In addition, the app can protect your personal customizations so that they are not overwritten during an update.
+## 🛠 Preparation for Creators
+If you want to host your own configurations, ensure your repository contains:
+- A `.dotinst` JSON profile at the root.
+- A `dotfiles/` folder (or a custom subfolder defined in your profile).
+- A `setup/dependencies/` directory with package lists.
 
-## Dotfiles Installer Folders
-
-Dotfiles will be stored in the `.mydotfiles` folder within your `home` directory. You can change the folder in preferences.
-
-## For Developers
-
-<div class="tip custom-block" style="padding-top: 8px">
-
-**The Dotfiles Installer provides a powerful workflow to develop dotfiles and manage the code on GitHub.**
-
-</div>
-
-![image](/mainscreen-dev.jpg)
-
-Activate the development tools in the preferences to enable the development workflow. This allows you to synchronize your Git repository with your installed dotfiles and create a `.dotinst` file for publication.
+## 🧪 Safe Testing
+Use the `--testmode` flag to verify your installation logic (packages and scripts) without staging any files or modifying your `$HOME` directory:
+```bash
+ml4w-dotfiles-installer --install ./my-profile.dotinst --testmode

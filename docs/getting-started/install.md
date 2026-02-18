@@ -1,16 +1,43 @@
-# Installation
+# Installation Guide
 
-> [!IMPORTANT]
-> The Dotfiles Installer requires a Desktop Environment (Gnome, KDE Plasma, etc.) or a Window Manager (Hyprland, Qtile, etc.). On a minimal system, please install e.g. Hyprland, Qtile, etc. and a terminal (e.g. alacritty, kitty, etc.) first.
+Deploy the ML4W Dotfiles Installer to your system and start managing your profiles today.
 
-Install the Dotfiles Installer App from Flathub:
+## ⚙️ Requirements
+The installer is distro-agnostic and supports:
+- **Arch Linux** (Pacman/AUR helpers)
+- **Fedora** (DNF)
+- **openSUSE** (Zypper)
 
-<a href='https://flathub.org/apps/com.ml4w.dotfilesinstaller' target="_blank">
-    <img width='240' alt='Get it on Flathub' src='https://flathub.org/api/badge?locale=en'/>
-</a>
+## 🚀 Quick Install
+To install the installer script globally:
 
-Run the Dotfiles Installer with
+```bash
+# Clone the Repo
+git clone https://github.com/mylinuxforwork/ml4w-dotfiles-installer.git
 
-```sh
-flatpak run com.ml4w.dotfilesinstaller
+# Run Make
+cd ml4w-dotfiles-installer
+make install
+
 ```
+> Verify PATH: Ensure ~/.local/bin is in your environment $PATH.
+
+## 📦 Usage Examples
+
+Install a Remote Profile
+```bash
+ml4w-dotfiles-installer --install https://raw.githubusercontent.com/user/repo/main/profile.dotinst
+```
+
+Install from a Local Folder (Development)
+```bash
+ml4w-dotfiles-installer --install ~/Projects/my-dots/dev.dotinst
+```
+## 🛡️ Pro Features
+
+- User Scripts: Create ~/.config/ml4w-dotfiles-installer/[ID]/post.sh to run your personal tweaks after every update.
+
+- Blacklisting: Create a blacklist file in your ID config folder to prevent specific files (like monitors.conf) from being overwritten.
+
+- Test Mode: Run --testmode to dry-run the installation of packages and execution of scripts.
+

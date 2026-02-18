@@ -26,3 +26,6 @@ git add .
 git commit -m "Your commit message"
 git push
 ```
+## Publish your Dotfiles
+
+You can upload your `.dotinst` file to any server or public GitHub repository and share the download links.

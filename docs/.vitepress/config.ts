@@ -1,7 +1,7 @@
 // .vitepress/config.ts
 export default {
-  title: 'ML4W Dotfiles Installer Wiki',
-  description: 'Easy installer app for dotfiles configurations',
+  title: 'ML4W Dotfiles Installer',
+  description: 'ML4W Dotfiles Installer: Authentic. Modular. Safe.',
   base: "/dotfiles-installer/",
   lastUpdated: true,
   cleanUrls: true,
@@ -23,7 +23,7 @@ export default {
       { text: "Home", link: "/" },
       { text: "About", link: "/getting-started/overview" },
      {
-        text: "0.12.1",
+        text: "0.2.0",
         items: [
           {
             text: 'Changelog',
@@ -62,32 +62,15 @@ export default {
           items: [
             { text: "Overview", link: "/getting-started/overview" },
             { text: "Install", link: "/getting-started/install" },
-            { text: "Update", link: "/getting-started/update" },
           ],
         },
         {
-          text: "Install Dotfiles",
-          // collapsed: false,
-          items: [
-            { text: "Load a .dotinst File", link: "/install/load-dotinst" },
-            { text: "Backup your configuration", link: "/install/backup" },
-            { text: "Define Settings", link: "/install/settings" },
-            { text: "Restore your Dotfiles Settings", link: "/install/restore" },
-            { text: "Protect your Customization", link: "/install/protect" },
-            { text: "Run the Installation", link: "/install/installation" },
-          ],
-        },
-        {
-          text: "For Developers",
+          text: "Developer Guide",
           // collapsed: false,
           items: [
             { text: "Overview", link: "/dev/overview" },
-            { text: "Prepare a GitHub repository", link: "/dev/prepare-git-repository" },
-            { text: "Create a project", link: "/dev/create-project" },
-            { text: "Sync files", link: "/dev/sync-files" },
-            { text: "Publish your Dotfiles", link: "/dev/publish-dotfiles" },
-            { text: "Example .dotinst files", link: "/dev/examples" },
-            { text: "Contributing to wiki", link: "/dev/contributing" },
+            { text: "Example .dotinst", link: "/dev/examples" },
+            { text: "Prepare Git Repository", link: "/dev/prepare-git-repository" },
           ],
         },
       ],
