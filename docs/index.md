@@ -31,7 +31,10 @@ features:
 
 Experience a professional-grade Profile Manager designed for the modern Linux user. The ML4W Dotfiles Installer provides a robust command-line interface to deploy, manage, and update your Linux configurations across Arch, Fedora, and openSUSE with absolute precision and peace of mind.
 
-## Why Choose the ML4W Installer?
+> [!IMPORTANT]
+> The Flatpak based Dotfiles Installer is not supported anymore. You can uninstall it with `flatpak uninstall com.ml4w.dotfilesinstaller`. The new script based installer is compatible with existing .dotinst files.
+
+## Why Choose the ML4W Dotfiles Installer?
 
 - Distribution Intelligence: Native support for pacman, dnf, and zypper. It understands your system's package manager so you don't have to.
 
