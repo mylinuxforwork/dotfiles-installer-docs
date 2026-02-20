@@ -46,10 +46,6 @@ export default {
             text: 'Wallpapers',
             link: 'https://github.com/mylinuxforwork/wallpaper'
           },
-          {
-           text: 'Contributing to wiki →',
-           link: '/dev/contributing'
-          },
         ],
       },
     ],

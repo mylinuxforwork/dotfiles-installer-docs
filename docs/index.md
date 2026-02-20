@@ -18,7 +18,7 @@ hero:
       link: /getting-started/install
     - theme: alt
       text: GitHub ↗
-      link: https://github.com/mylinuxforwork/dotfiles-installer
+      link: https://github.com/mylinuxforwork/ml4w-dotfiles-installer
 
 features:
   - title: ⚙️ Distribution Intelligence
